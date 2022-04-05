@@ -1,0 +1,81 @@
+body {
+background-image: url('https://cdn.glitch.global/c57819d7-4459-4571-abe1-a283447155e3/105881346-illustration-vectorielle-de-mignon-crabe-mer-animal-fond.jpeg?v=1648452013547');
+background-size: 15vw;
+margin: 0;
+  padding: 0;
+}
+
+.bild {
+width: 50vw; margin: 0 25vw;
+transform: rotate(-15deg);
+box-shadow: 2px 5px 5px 5px rgba(255, 0, 255, 0.8);
+}
+
+a {
+  text-decoration: none;
+  background-color: red;
+  border-bottom: 10px dotted green;
+  color: pink;
+  font-family: arial;
+
+}
+
+
+a:hover {
+  background-color: blue;
+  border-bottom: 100px dotted green;
+  font-family: arial;
+  font-family: 'Palette Mosaic', cursive;
+}
+
+
+p {
+  background-color: white;
+ transform: rotate(5deg);
+}
+
+.woop {
+    font-family: 'Palette Mosaic', cursive;
+font-size: 4em;
+}
+
+.webring {
+  background-color: red;
+  height: 10vh;
+  width: 100vw;
+  text-align: center;
+   transform: rotate(0deg);
+
+}
+
+h1 {
+  font-size: 13vw;
+  font-family: 'Palette Mosaic', cursive;
+  line-height: 1em;
+  position: fixed;
+  z-index: 1000;
+  color: yellow;
+  mix-blend-mode: difference;
+}
+
+
+
+/* On screens that are 600px or less */
+@media screen and (max-width: 600px) {
+  body {
+background-size: 150vw;
+
+
+  }
+  
+  .bild {
+width: 80vw; margin: 0 10vw;
+  }
+  
+p {
+  background-color: yellow;
+  font-size: 5vw;
+}
+  
+  
+}
